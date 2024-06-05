@@ -439,30 +439,4 @@ def recommend(movie):
 
 # In[151]:
 
-
 recommend('Batman Begins')
-
-
-# In[152]:
-
-
-import pickle
-
-
-# In[153]:
-
-
-pickle.dump(new_df.to_dict(),open('movies_dict.pkl','wb'))
-
-
-# In[154]:
-
-
-pickle.dump(similarity,open('similarity.pkl','wb'))
-
-
-# In[ ]:
-
-
-
-
